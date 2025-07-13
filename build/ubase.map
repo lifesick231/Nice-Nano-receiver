@@ -1,0 +1,643 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+in_pack             0x100             build/ubase/urf_star_protocol.c.o
+resp_crc_fail       0x20              build/ubase/urf_radio.c.o
+buf_pack            0x100             build/ubase/urf_star_protocol.c.o
+node_list           0x100             build/ubase/urf_star_protocol.c.o
+cycle_packet        0x104             build/ubase/udevices_base_main.c.o
+node_active         0x100             build/ubase/urf_star_protocol.c.o
+data_packet         0x104             build/ubase/udevices_base_main.c.o
+cur_out_pack        0x100             build/ubase/urf_star_protocol.c.o
+node_payload        0x200             build/ubase/urf_star_protocol.c.o
+resp_crc_ok         0x20              build/ubase/urf_radio.c.o
+tx_packet           0x100             build/ubase/urf_radio.c.o
+rx_packet           0x100             build/ubase/urf_radio.c.o
+pack_payload        0x4               build/ubase/urf_radio.c.o
+node_pack_id        0x40              build/ubase/urf_star_protocol.c.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x00000000        0x0 build/ubase/udevices_base_main.c.o
+ .data          0x00000000        0x0 build/ubase/udevices_base_main.c.o
+ .bss           0x00000000        0x0 build/ubase/udevices_base_main.c.o
+ .text.fast_clock_start
+                0x00000000       0x1c build/ubase/udevices_base_main.c.o
+ .text          0x00000000        0x0 build/ubase/urf_radio.c.o
+ .data          0x00000000        0x0 build/ubase/urf_radio.c.o
+ .bss           0x00000000        0x0 build/ubase/urf_radio.c.o
+ .text.rf_disable
+                0x00000000       0x50 build/ubase/urf_radio.c.o
+ .text.rf_init_ext
+                0x00000000      0x108 build/ubase/urf_radio.c.o
+ .text.rf_mode_rx_only
+                0x00000000       0x84 build/ubase/urf_radio.c.o
+ .text.rf_mode_tx_only
+                0x00000000       0x90 build/ubase/urf_radio.c.o
+ .text.rf_mode_tx_then_rx
+                0x00000000       0xd4 build/ubase/urf_radio.c.o
+ .text.rf_send  0x00000000      0x114 build/ubase/urf_radio.c.o
+ .text.rf_send_and_listen
+                0x00000000       0xa4 build/ubase/urf_radio.c.o
+ .text.rf_has_new_packet
+                0x00000000       0x18 build/ubase/urf_radio.c.o
+ .text.rf_get_packet
+                0x00000000       0x38 build/ubase/urf_radio.c.o
+ .text.rf_autorespond_on
+                0x00000000      0x1ac build/ubase/urf_radio.c.o
+ .text.rf_autorespond_off
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_override_irq
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_attach_rx_irq
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_dettach_rx_irq
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_attach_tx_irq
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_dettach_tx_irq
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_clear_events
+                0x00000000       0x40 build/ubase/urf_radio.c.o
+ .text.rf_get_ack_state
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text.rf_is_busy
+                0x00000000        0xc build/ubase/urf_radio.c.o
+ .text          0x00000000        0x0 build/ubase/urf_timer.c.o
+ .data          0x00000000        0x0 build/ubase/urf_timer.c.o
+ .bss           0x00000000        0x0 build/ubase/urf_timer.c.o
+ .text.time_pause
+                0x00000000       0x1c build/ubase/urf_timer.c.o
+ .text.time_resume
+                0x00000000       0x18 build/ubase/urf_timer.c.o
+ .text.time_stop
+                0x00000000       0x28 build/ubase/urf_timer.c.o
+ .text.micros   0x00000000       0x1c build/ubase/urf_timer.c.o
+ .text.micros_count
+                0x00000000        0xc build/ubase/urf_timer.c.o
+ .text.seconds  0x00000000        0xc build/ubase/urf_timer.c.o
+ .text.schedule_event
+                0x00000000       0x80 build/ubase/urf_timer.c.o
+ .text.schedule_event_delayed
+                0x00000000       0x84 build/ubase/urf_timer.c.o
+ .text.schedule_subevent1
+                0x00000000       0x30 build/ubase/urf_timer.c.o
+ .text.schedule_subevent2
+                0x00000000       0x30 build/ubase/urf_timer.c.o
+ .text.schedule_event_stop
+                0x00000000        0xc build/ubase/urf_timer.c.o
+ .text.schedule_event_adjust
+                0x00000000       0x14 build/ubase/urf_timer.c.o
+ .text.schedule_event_cancel_sub1
+                0x00000000        0xc build/ubase/urf_timer.c.o
+ .text.schedule_event_cancel_sub2
+                0x00000000        0xc build/ubase/urf_timer.c.o
+ .text.time_adjust
+                0x00000000       0x40 build/ubase/urf_timer.c.o
+ .text.delay_ms
+                0x00000000       0x6c build/ubase/urf_timer.c.o
+ .text.delay_mcs
+                0x00000000       0x54 build/ubase/urf_timer.c.o
+ .bss.phase     0x00000000        0x1 build/ubase/urf_timer.c.o
+ .bss.timed_event_repeat
+                0x00000000        0x4 build/ubase/urf_timer.c.o
+ .text          0x00000000        0x0 build/ubase/urf_star_protocol.c.o
+ .data          0x00000000        0x0 build/ubase/urf_star_protocol.c.o
+ .bss           0x00000000        0x0 build/ubase/urf_star_protocol.c.o
+ .text.star_set_id
+                0x00000000        0xc build/ubase/urf_star_protocol.c.o
+ .text.star_send_to_node
+                0x00000000       0x70 build/ubase/urf_star_protocol.c.o
+ .text.star_queue_send
+                0x00000000       0xf0 build/ubase/urf_star_protocol.c.o
+ .text.add_node
+                0x00000000       0x48 build/ubase/urf_star_protocol.c.o
+ .text.update_node_list
+                0x00000000      0x110 build/ubase/urf_star_protocol.c.o
+ .text.loop_central
+                0x00000000      0x31c build/ubase/urf_star_protocol.c.o
+ .text.loop_node
+                0x00000000      0x1c0 build/ubase/urf_star_protocol.c.o
+ .text.star_loop_step
+                0x00000000      0x1c8 build/ubase/urf_star_protocol.c.o
+ .text.star_get_synced_time
+                0x00000000       0x1c build/ubase/urf_star_protocol.c.o
+ .text.star_get_last_sent_time
+                0x00000000        0xc build/ubase/urf_star_protocol.c.o
+ .bss.active_nodes
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.cur_pack_len
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.cycle_phase
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.last_asked_time
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.last_pack_sent
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.last_phase_start
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.last_star_sent_ms
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.last_sync_time
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.star_base_sync_time_ms
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .bss.star_local_sync_time_ms
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data.active_timeout
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data.no_ask_timeout
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data.no_sync_timeout
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data.nonstar_send_interval_mcs
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data.star_unit_id
+                0x00000000        0x4 build/ubase/urf_star_protocol.c.o
+ .data          0x00000000        0x0 build/ubase/gcc_startup_nrf52840.S.o
+ .bss           0x00000000        0x0 build/ubase/gcc_startup_nrf52840.S.o
+ .text          0x00000000        0x0 build/ubase/system_nrf52840.c.o
+ .data          0x00000000        0x0 build/ubase/system_nrf52840.c.o
+ .bss           0x00000000        0x0 build/ubase/system_nrf52840.c.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x10 build/ubase/system_nrf52840.c.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00027000         0x0005a000         xr
+EXTFLASH         0x12000000         0x08000000         xr
+RAM              0x20000000         0x00040000         xrw
+CODE_RAM         0x00800000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD build/ubase/udevices_base_main.c.o
+LOAD build/ubase/urf_radio.c.o
+LOAD build/ubase/urf_timer.c.o
+LOAD build/ubase/urf_star_protocol.c.o
+LOAD build/ubase/gcc_startup_nrf52840.S.o
+LOAD build/ubase/system_nrf52840.c.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+
+.text           0x00027000      0xef8
+ *(.isr_vector)
+ .isr_vector    0x00027000      0x200 build/ubase/gcc_startup_nrf52840.S.o
+                0x00027000                __isr_vector
+ *(.text*)
+ .text          0x00027200       0x40 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x00027240       0x7c c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x00027240                _stack_init
+                0x00027248                _start
+                0x00027248                _mainCRTStartup
+ .text.startup.main
+                0x000272bc       0xfc build/ubase/udevices_base_main.c.o
+                0x000272bc                main
+ .text.rf_init  0x000273b8       0xe0 build/ubase/urf_radio.c.o
+                0x000273b8                rf_init
+ .text.rf_listen
+                0x00027498       0xa0 build/ubase/urf_radio.c.o
+                0x00027498                rf_listen
+ .text.RADIO_IRQHandler
+                0x00027538      0x270 build/ubase/urf_radio.c.o
+                0x00027538                RADIO_IRQHandler
+ .text.delay    0x000277a8       0x24 build/ubase/urf_timer.c.o
+                0x000277a8                delay
+ .text.debug    0x000277cc       0x78 build/ubase/urf_timer.c.o
+                0x000277cc                debug
+ .text.time_start
+                0x00027844       0x78 build/ubase/urf_timer.c.o
+                0x00027844                time_start
+ .text.TIMER2_IRQHandler
+                0x000278bc       0x10 build/ubase/urf_timer.c.o
+                0x000278bc                TIMER2_IRQHandler
+ .text.millis   0x000278cc       0x28 build/ubase/urf_timer.c.o
+                0x000278cc                millis
+ .text.TIMER3_IRQHandler
+                0x000278f4       0xd0 build/ubase/urf_timer.c.o
+                0x000278f4                TIMER3_IRQHandler
+ .text.star_init
+                0x000279c4       0x38 build/ubase/urf_star_protocol.c.o
+                0x000279c4                star_init
+ .text.star_has_packet
+                0x000279fc        0xc build/ubase/urf_star_protocol.c.o
+                0x000279fc                star_has_packet
+ .text.star_get_packet
+                0x00027a08       0x88 build/ubase/urf_star_protocol.c.o
+                0x00027a08                star_get_packet
+ .text          0x00027a90       0x3c build/ubase/gcc_startup_nrf52840.S.o
+                0x00027a90                Reset_Handler
+                0x00027ab8                NMI_Handler
+                0x00027aba                HardFault_Handler
+                0x00027abc                MemoryManagement_Handler
+                0x00027abe                BusFault_Handler
+                0x00027ac0                UsageFault_Handler
+                0x00027ac2                SVC_Handler
+                0x00027ac4                DebugMon_Handler
+                0x00027ac6                PendSV_Handler
+                0x00027ac8                SysTick_Handler
+                0x00027aca                POWER_CLOCK_IRQHandler
+                0x00027aca                PDM_IRQHandler
+                0x00027aca                TEMP_IRQHandler
+                0x00027aca                QDEC_IRQHandler
+                0x00027aca                PWM3_IRQHandler
+                0x00027aca                FPU_IRQHandler
+                0x00027aca                USBD_IRQHandler
+                0x00027aca                PWM1_IRQHandler
+                0x00027aca                GPIOTE_IRQHandler
+                0x00027aca                UARTE0_UART0_IRQHandler
+                0x00027aca                TIMER4_IRQHandler
+                0x00027aca                CRYPTOCELL_IRQHandler
+                0x00027aca                I2S_IRQHandler
+                0x00027aca                SWI4_EGU4_IRQHandler
+                0x00027aca                TIMER0_IRQHandler
+                0x00027aca                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                0x00027aca                UARTE1_IRQHandler
+                0x00027aca                TIMER1_IRQHandler
+                0x00027aca                SPIM3_IRQHandler
+                0x00027aca                PWM2_IRQHandler
+                0x00027aca                ECB_IRQHandler
+                0x00027aca                SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                0x00027aca                Default_Handler
+                0x00027aca                SAADC_IRQHandler
+                0x00027aca                CCM_AAR_IRQHandler
+                0x00027aca                WDT_IRQHandler
+                0x00027aca                SWI2_EGU2_IRQHandler
+                0x00027aca                SWI5_EGU5_IRQHandler
+                0x00027aca                RNG_IRQHandler
+                0x00027aca                RTC2_IRQHandler
+                0x00027aca                PWM0_IRQHandler
+                0x00027aca                SWI3_EGU3_IRQHandler
+                0x00027aca                RTC1_IRQHandler
+                0x00027aca                SWI1_EGU1_IRQHandler
+                0x00027aca                SPIM2_SPIS2_SPI2_IRQHandler
+                0x00027aca                NFCT_IRQHandler
+                0x00027aca                SWI0_EGU0_IRQHandler
+                0x00027aca                MWU_IRQHandler
+                0x00027aca                RTC0_IRQHandler
+                0x00027aca                QSPI_IRQHandler
+                0x00027aca                COMP_LPCOMP_IRQHandler
+ .text.SystemInit
+                0x00027acc      0x388 build/ubase/system_nrf52840.c.o
+                0x00027acc                SystemInit
+ .text.exit     0x00027e54       0x28 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+                0x00027e54                exit
+ .text.__libc_init_array
+                0x00027e7c       0x48 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x00027e7c                __libc_init_array
+ .text.memset   0x00027ec4       0x10 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x00027ec4                memset
+ .text._exit    0x00027ed4        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                0x00027ed4                _exit
+ *(.init)
+ .init          0x00027ed8        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x00027ed8                _init
+ .init          0x00027edc        0x8 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x00027ee4        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x00027ee4                _fini
+ .fini          0x00027ee8        0x8 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x00027ef0        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                0x00027ef0                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x00027ef4        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x00027ef4        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+
+.glue_7         0x00027ef8        0x0
+ .glue_7        0x00027ef8        0x0 linker stubs
+
+.glue_7t        0x00027ef8        0x0
+ .glue_7t       0x00027ef8        0x0 linker stubs
+
+.vfp11_veneer   0x00027ef8        0x0
+ .vfp11_veneer  0x00027ef8        0x0 linker stubs
+
+.v4_bx          0x00027ef8        0x0
+ .v4_bx         0x00027ef8        0x0 linker stubs
+
+.iplt           0x00027ef8        0x0
+ .iplt          0x00027ef8        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00027ef8                __exidx_start = .
+
+.ARM.exidx      0x00027ef8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00027ef8        0x8 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                                 0x10 (size before relaxing)
+                0x00027f00                __exidx_end = .
+
+.rel.dyn        0x00027f00        0x0
+ .rel.iplt      0x00027f00        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00027f00                . = ALIGN (0x4)
+                0x00027f00                __etext = .
+
+.data           0x20000000       0x74 load address 0x00027f00
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.pack_max_length
+                0x20000000        0x4 build/ubase/urf_radio.c.o
+                0x20000000                pack_max_length
+ .data.cycle_step_mcs
+                0x20000004        0x4 build/ubase/urf_star_protocol.c.o
+                0x20000004                cycle_step_mcs
+ .data.SystemCoreClock
+                0x20000008        0x4 build/ubase/system_nrf52840.c.o
+                0x20000008                SystemCoreClock
+ .data.impure_data
+                0x2000000c       0x60 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                0x2000006c                . = ALIGN (0x4)
+                0x2000006c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x2000006c                PROVIDE (__preinit_array_end = .)
+                0x2000006c                . = ALIGN (0x4)
+                0x2000006c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x2000006c        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000070                PROVIDE (__init_array_end = .)
+                0x20000070                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000070        0x4 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                __data_end__ = .
+
+.igot.plt       0x20000074        0x0 load address 0x00027f74
+ .igot.plt      0x20000074        0x0 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.bss            0x20000074      0xc14 load address 0x00027f74
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000074       0x1c c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.ack_state
+                0x20000090        0x4 build/ubase/urf_radio.c.o
+                0x20000090                ack_state
+ .bss.auto_respond
+                0x20000094        0x1 build/ubase/urf_radio.c.o
+                0x20000094                auto_respond
+ .bss.current_mode
+                0x20000095        0x1 build/ubase/urf_radio.c.o
+                0x20000095                current_mode
+ *fill*         0x20000096        0x2 
+ .bss.last_processed_rx_packet
+                0x20000098        0x4 build/ubase/urf_radio.c.o
+                0x20000098                last_processed_rx_packet
+ .bss.resp_length
+                0x2000009c        0x1 build/ubase/urf_radio.c.o
+                0x2000009c                resp_length
+ *fill*         0x2000009d        0x3 
+ .bss.rf_busy   0x200000a0        0x4 build/ubase/urf_radio.c.o
+                0x200000a0                rf_busy
+ .bss.rf_irq_override
+                0x200000a4        0x4 build/ubase/urf_radio.c.o
+                0x200000a4                rf_irq_override
+ .bss.rf_rx_irq
+                0x200000a8        0x4 build/ubase/urf_radio.c.o
+                0x200000a8                rf_rx_irq
+ .bss.rf_tx_irq
+                0x200000ac        0x4 build/ubase/urf_radio.c.o
+                0x200000ac                rf_tx_irq
+ .bss.rx_packet_counter
+                0x200000b0        0x4 build/ubase/urf_radio.c.o
+                0x200000b0                rx_packet_counter
+ .bss.mcs_time  0x200000b4        0x4 build/ubase/urf_timer.c.o
+                0x200000b4                mcs_time
+ .bss.ms_counter
+                0x200000b8        0x4 build/ubase/urf_timer.c.o
+                0x200000b8                ms_counter
+ .bss.ms_time   0x200000bc        0x4 build/ubase/urf_timer.c.o
+                0x200000bc                ms_time
+ .bss.s_counter
+                0x200000c0        0x4 build/ubase/urf_timer.c.o
+                0x200000c0                s_counter
+ .bss.s_time    0x200000c4        0x4 build/ubase/urf_timer.c.o
+                0x200000c4                s_time
+ .bss.timed_event
+                0x200000c8        0x4 build/ubase/urf_timer.c.o
+                0x200000c8                timed_event
+ .bss.timed_event_adjustment
+                0x200000cc        0x4 build/ubase/urf_timer.c.o
+                0x200000cc                timed_event_adjustment
+ .bss.timed_event_adjustment_state
+                0x200000d0        0x4 build/ubase/urf_timer.c.o
+                0x200000d0                timed_event_adjustment_state
+ .bss.timed_event_delayed
+                0x200000d4        0x4 build/ubase/urf_timer.c.o
+                0x200000d4                timed_event_delayed
+ .bss.timed_event_period
+                0x200000d8        0x4 build/ubase/urf_timer.c.o
+                0x200000d8                timed_event_period
+ .bss.timed_subevent1
+                0x200000dc        0x4 build/ubase/urf_timer.c.o
+                0x200000dc                timed_subevent1
+ .bss.timed_subevent1_enabled
+                0x200000e0        0x4 build/ubase/urf_timer.c.o
+                0x200000e0                timed_subevent1_enabled
+ .bss.timed_subevent2
+                0x200000e4        0x4 build/ubase/urf_timer.c.o
+                0x200000e4                timed_subevent2
+ .bss.timed_subevent2_enabled
+                0x200000e8        0x4 build/ubase/urf_timer.c.o
+                0x200000e8                timed_subevent2_enabled
+ .bss.timer_on  0x200000ec        0x1 build/ubase/urf_timer.c.o
+                0x200000ec                timer_on
+ *fill*         0x200000ed        0x3 
+ .bss.buf_pack_len
+                0x200000f0        0x4 build/ubase/urf_star_protocol.c.o
+                0x200000f0                buf_pack_len
+ .bss.role_central
+                0x200000f4        0x4 build/ubase/urf_star_protocol.c.o
+                0x200000f4                role_central
+ .bss.star_has_new_packet
+                0x200000f8        0x4 build/ubase/urf_star_protocol.c.o
+                0x200000f8                star_has_new_packet
+ *(COMMON)
+ COMMON         0x200000fc      0x208 build/ubase/udevices_base_main.c.o
+                0x200000fc                cycle_packet
+                0x20000200                data_packet
+ COMMON         0x20000304      0x244 build/ubase/urf_radio.c.o
+                0x20000304                resp_crc_fail
+                0x20000324                resp_crc_ok
+                0x20000344                tx_packet
+                0x20000444                rx_packet
+                0x20000544                pack_payload
+ COMMON         0x20000548      0x740 build/ubase/urf_star_protocol.c.o
+                0x20000548                in_pack
+                0x20000648                buf_pack
+                0x20000748                node_list
+                0x20000848                node_active
+                0x20000948                cur_out_pack
+                0x20000a48                node_payload
+                0x20000c48                node_pack_id
+                0x20000c88                . = ALIGN (0x4)
+                0x20000c88                __bss_end__ = .
+
+.heap           0x20000c88     0x4000
+                0x20000c88                __HeapBase = .
+                0x20000c88                __end__ = .
+                [!provide]                PROVIDE (end = .)
+ *(.heap*)
+ .heap          0x20000c88     0x4000 build/ubase/gcc_startup_nrf52840.S.o
+                0x20004c88                __HeapLimit = .
+
+.stack_dummy    0x20000c88     0x8000
+ *(.stack*)
+ .stack         0x20000c88     0x8000 build/ubase/gcc_startup_nrf52840.S.o
+                0x20040000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20038000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20040000                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x00000074                DataInitFlashUsed = (__bss_start__ - __data_start__)
+                0x00000f00                CodeFlashUsed = (__etext - ORIGIN (FLASH))
+                0x00000f74                TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
+                0x00000001                ASSERT ((TotalFlashUsed <= LENGTH (FLASH)), region FLASH overflowed with .data and user data)
+OUTPUT(build/ubase.out elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x0000001e       0x34 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000052       0x1c c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000006e       0x34 build/ubase/udevices_base_main.c.o
+ .ARM.attributes
+                0x000000a2       0x34 build/ubase/urf_radio.c.o
+ .ARM.attributes
+                0x000000d6       0x34 build/ubase/urf_timer.c.o
+ .ARM.attributes
+                0x0000010a       0x34 build/ubase/urf_star_protocol.c.o
+ .ARM.attributes
+                0x0000013e       0x20 build/ubase/gcc_startup_nrf52840.S.o
+ .ARM.attributes
+                0x0000015e       0x34 build/ubase/system_nrf52840.c.o
+ .ARM.attributes
+                0x00000192       0x34 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000001c6       0x32 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000001f8       0x34 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000022c       0x34 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000260       0x34 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000294       0x32 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x000002c6       0x1e c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+.comment        0x00000000       0x4c
+ .comment       0x00000000       0x4c build/ubase/udevices_base_main.c.o
+                                 0x4d (size before relaxing)
+ .comment       0x0000004c       0x4d build/ubase/urf_radio.c.o
+ .comment       0x0000004c       0x4d build/ubase/urf_timer.c.o
+ .comment       0x0000004c       0x4d build/ubase/urf_star_protocol.c.o
+ .comment       0x0000004c       0x4d build/ubase/system_nrf52840.c.o
+
+.debug_line     0x00000000       0x83
+ .debug_line    0x00000000       0x83 build/ubase/gcc_startup_nrf52840.S.o
+
+.debug_info     0x00000000       0x26
+ .debug_info    0x00000000       0x26 build/ubase/gcc_startup_nrf52840.S.o
+
+.debug_abbrev   0x00000000       0x14
+ .debug_abbrev  0x00000000       0x14 build/ubase/gcc_startup_nrf52840.S.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 build/ubase/gcc_startup_nrf52840.S.o
+
+.debug_str      0x00000000       0x53
+ .debug_str     0x00000000       0x53 build/ubase/gcc_startup_nrf52840.S.o
+
+.debug_frame    0x00000000       0x94
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 c:/program files (x86)/gnu arm embedded toolchain/9 2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
