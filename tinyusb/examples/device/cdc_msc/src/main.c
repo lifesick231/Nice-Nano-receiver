@@ -36,8 +36,6 @@
 #include "urf_star_protocol.h"
 #include "urf_radio.h"
 
-void cdc_task(void);
-
 extern volatile uint32_t count;
 extern volatile bool print_flag;
 
@@ -48,6 +46,28 @@ uint8_t data_packet[256];
 #define RADIO_SPEED       1000    // 1 Mbps
 #define PHASE_LENGTH_US   3200    // 3.2ms per node phase
 #define IS_CENTRAL        1       // This device acts as central
+
+/*-----------------USBD_OUTPUT-----------------*/
+void usb_send_packet(uint8_t *data, uint8_t length)
+{
+  uint8_t frame[260]; // đủ chứa header + 256 payload + checksum
+  uint8_t checksum = 0;
+
+  frame[0] = 0xAA;
+  frame[1] = 0x55;
+  frame[2] = length;
+
+  for (int i = 0; i < length; i++) {
+    frame[3 + i] = data[i];
+    checksum ^= data[i];  // XOR checksum đơn giản
+  }
+
+  frame[3 + length] = checksum;
+
+  tud_cdc_write(frame, length + 4);  // 2 marker + 1 length + data + 1 checksum
+  tud_cdc_write_flush();
+}
+
 
 /*------------- MAIN -------------*/
 int main(void) {
@@ -92,30 +112,15 @@ int main(void) {
 
       if (tud_cdc_connected() && (tud_cdc_get_line_state() & 0x01))
       {
-        tud_cdc_write_str("Packet received:\r\n");
-        tud_cdc_write(data_packet, len);
-        tud_cdc_write_str("\r\n");
-        tud_cdc_write_flush();
+        usb_send_packet(data_packet, len);
       }
-    }
-
-    cdc_task();
-
-  } 
+    } 
+  }
 }
 
 //--------------------------------------------------------------------+
 // USB CDC
 //--------------------------------------------------------------------+
-void cdc_task(void) {
-  if (print_flag && tud_cdc_connected() && (tud_cdc_get_line_state() & 0x01)) {
-    print_flag = false;
-    char msg[64];
-    snprintf(msg, sizeof(msg), "IRQ count: %lu\r\n", count);
-    tud_cdc_write_str(msg);
-    tud_cdc_write_flush();
-  }
-}
 
 // Invoked when cdc when line state changed e.g connected/disconnected
 void tud_cdc_line_state_cb(uint8_t itf, bool dtr, bool rts) {
